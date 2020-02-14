@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: retry.server2
+---
+testFramework: kotlintest
+sourceLanguage: kotlin

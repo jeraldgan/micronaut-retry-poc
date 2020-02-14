@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: retry-server1
+  server:
+    port: 8001
+  io:
+    watch:
+        paths: src/main
+        restart: true

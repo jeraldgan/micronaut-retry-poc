@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: retry-client
+
+  http:
+    services:
+      server1:
+        urls:
+          - http://127.0.0.1:8001
+
+      server2:
+        urls:
+          - http://127.0.0.1:8002
